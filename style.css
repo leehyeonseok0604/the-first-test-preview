@@ -1,1 +1,117 @@
-
+@import "reset.css";
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: aquamarine;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.land {
+  position: relative;
+  height: 100%;
+  background-color: azure;
+  width: 310px;
+  padding: 50px 30px 15px 30px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.playlist {
+  width: 33%;
+}
+.fuxx {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+.main-song-cover {
+  position: relative;
+  background-color: goldenrod;
+  width: 90px;
+  height: 90px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.lol {
+  margin-left: 100px;
+  top: 110px;
+  position: absolute;
+}
+.lol p {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 24px;
+}
+.main-song-cover i {
+  color: azure;
+  opacity: 0.8;
+}
+.btns {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+.btn {
+  border-radius: 50%;
+  border: 2px solid black;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 4px solid black;
+}
+.btn-big {
+  display: flex;
+  width: 50%;
+  border-radius: 10px;
+}
+.btn-big i {
+  margin-right: 5px;
+}
+.song-list {
+  display: flex;
+  flex-direction: column;
+}
+.song {
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 20px 0px;
+}
+.songa {
+  background-color: brown;
+}
+.songb {
+  background-color: palevioletred;
+}
+.songc {
+  background-color: blue;
+}
+.songd {
+  background-color: cadetblue;
+}
+.songsp {
+  font-weight: 600;
+  font-size: 15px;
+  position: absolute;
+  left: 77px;
+  margin-top: 22px;
+}
+.songsp > p {
+  margin-bottom: 5px;
+}
+.songsp > p ~ p {
+  opacity: 0.4;
+  font-size: 13px;
+}
